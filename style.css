@@ -2300,6 +2300,7 @@ input:focus {
     margin: 15px 0;
     font-size: 80%;
     padding: 10px;
+    resize: none;
 }
 
 textarea:focus {
@@ -2551,15 +2552,13 @@ iframe {
 
 .message textarea {
     width: 100%;
+    font-family: var(--ff2);
+    font-size: 80%;
     border-radius: 10px;
     margin-top: 10px;
     margin-bottom: 25px;
-}
-
-.message textarea::placeholder {
-    font-family: var(--ff2);
-    font-family: 100%;
     padding: 10px;
+    resize: none;
 }
 
 .message textarea:focus {
