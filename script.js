@@ -194,7 +194,7 @@ overlay.onclick = function() {
 // ----------Countdown Timer---------------
 setInterval(() => {
     let now = new Date().getTime();
-    let deadline = new Date("march 3, 2022 00:00:00").getTime();
+    let deadline = new Date("april 3, 2022 00:00:00").getTime();
     let timeDifference = deadline - now;
 
     let days = timeDifference / (1000 * 60 * 60 * 24);
@@ -203,16 +203,16 @@ setInterval(() => {
     let seconds = (minutes - Math.floor(minutes)) * 60;
 
     /*
-                                                          let days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
-                                                          let hours = Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-                                                          let minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
-                                                          let seconds = Math.floor((timeDifference % (1000 * 60)) / (1000));
-                                                                  
-                                                          document.getElementById("days").innerHTML = days;
-                                                          document.getElementById("hours").innerHTML = hours;
-                                                          document.getElementById("minutes").innerHTML = minutes;
-                                                          document.getElementById("seconds").innerHTML = seconds;
-                                                          */
+                                                            let days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+                                                            let hours = Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                                                            let minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
+                                                            let seconds = Math.floor((timeDifference % (1000 * 60)) / (1000));
+                                                                    
+                                                            document.getElementById("days").innerHTML = days;
+                                                            document.getElementById("hours").innerHTML = hours;
+                                                            document.getElementById("minutes").innerHTML = minutes;
+                                                            document.getElementById("seconds").innerHTML = seconds;
+                                                            */
 
     document.getElementsByClassName("days")[0].innerHTML = Math.floor(days);
     document.getElementsByClassName("hours")[0].innerHTML = Math.floor(hours);
