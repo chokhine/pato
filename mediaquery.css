@@ -422,24 +422,29 @@
     .reservation_form form .form_1,
     .reservation_form form .form_2 {
         width: 100%;
-        /* background-color: violet; */
     }
     .reservation_img {
         width: 70%;
         height: 30%;
         margin: 15%;
     }
+    .menu_price {
+        height: auto;
+    }
     .menu_price_container {
         width: 95%;
-        /* height: 100%; */
+        height: auto;
         margin: 10% 5%;
-    }
-    .menu_price {
-        height: 300%;
+        /* background-color: aquamarine; */
     }
     .menu_g {
         display: block;
-        margin-bottom: 7%;
+        margin-bottom: 5%;
+        /* background-color: antiquewhite; */
+    }
+    .menu_img_3 {
+        margin-bottom: -3%;
+        /* padding-bottom: 0; */
     }
     .menu_price_img_div {
         width: 230px;
@@ -541,6 +546,11 @@
         width: 300px;
         height: 300px;
     }
+    .welcome_img {
+        width: 90%;
+        height: 300px;
+        margin-left: 5%;
+    }
     .discover h1 {
         font-size: 240%;
     }
@@ -574,6 +584,9 @@
     .list_small {
         display: block;
     }
+    .header {
+        height: 50vh;
+    }
     .header h1 {
         font-size: 230%;
     }
@@ -603,10 +616,6 @@
     .welcome_content {
         width: 100%;
         margin-left: 0%;
-    }
-    .welcome_img {
-        width: 90%;
-        margin-left: 5%;
     }
     .discover h1 {
         font-size: 200%;
@@ -657,9 +666,6 @@
     }
     .welcome_content h1 {
         font-size: 230%;
-    }
-    .welcome_img {
-        height: 350px;
     }
     .discover h1 {
         font-size: 180%;
